@@ -71,6 +71,7 @@ services.avahi = {
 };
 ##security.apparmor.enable = true;
 ##aa is broken on nixos no selinux either :/
+##no way to restrict path or make the store hidden from world
 # Enable automatic login for the user.
   services.xserver.displayManager.autoLogin.enable = true;
   services.xserver.displayManager.autoLogin.user = "uwu";
