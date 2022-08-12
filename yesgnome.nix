@@ -7,7 +7,7 @@
   services.xserver.desktopManager.gnome.enable = true;
   services.xserver.displayManager.gdm.wayland = true;
 
-
+##i dont really like gnome.. xwayland is broken on nixos plasma-wayland will try again maybe next release
 environment.systemPackages = with pkgs; [
 gnome.gnome-tweaks
 gnomeExtensions.cpudots
